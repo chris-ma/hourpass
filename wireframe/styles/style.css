@@ -1,0 +1,77 @@
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding: 0;
+  border:0;
+}
+nav{
+  width: 100vw;
+  height: 5vh;
+  color: black;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 100;
+  border-bottom: 1px solid lightgray;
+}
+.nav-items{
+  padding-left: 20px;
+  float: left;
+}
+.nav-items > li{
+  display: inline-block;
+  padding: 10px 20px 10px 10px;
+}
+.nav-items a{
+  text-decoration: none;
+}
+.nav-item a:hover{
+  background-color: gray;
+}
+.header-nav{
+  float: left;
+  padding: 5px 20px 10px 10px;
+}
+.header-nav{
+  text-decoration: none;
+  color: black;
+}
+.search-area{
+  border: 1px solid lightgray;
+  height: 1.8em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+.search-button{
+  height: 1.8em;
+  width: 50px;
+  background-color: teal;
+  color: white;
+  border-radius: 5px;
+}
+.activity-area{
+  padding: 30px;
+}
+.activity-plate{
+  float: left;
+  margin: 20px;
+  border: 1px solid lightgray;
+  width: 200px;
+  height: 300px;
+}
+.activity-image{
+  height: 60%;
+  width: 100%;
+  overflow: hidden;
+}
+.activity-title{
+  font-family: helvetica, sans-serif;
+  font-size: 16px;
+  padding: 5px 5px 5px 5px;
+}
+.activity-teaser{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: helvetica, sans-serif;
+  font-size: 12px;
+  padding: 5px 5px 5px 5px;
+}
